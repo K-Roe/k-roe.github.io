@@ -5,9 +5,8 @@ body
     
 }
 
-header {
+#header {
   border-style: double;
-  
   background-color: #caebf2;
   position: fixed;
   z-index: 10;
