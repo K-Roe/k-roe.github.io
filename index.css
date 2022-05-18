@@ -5,12 +5,49 @@ body
     
 }
 
+header {
+  border-style: double;
+  
+  background-color: #caebf2;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  
+  
+}
+
+
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+  
+}
+
+li {
+  color: rgb(7, 4, 4);
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  border-style: dotted;
+  width: 110px;
+  display: inline-block;
+}
+
+li:hover {
+  color: #fa003b;
+}
+
 #Main-Photo
 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-style: double,;
+  border-style: double;
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   
 
