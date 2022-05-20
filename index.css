@@ -5,26 +5,23 @@ body
     
 }
 
-#header {
+/* <!---- Links Section start ----> */
+
+#links {
   border-style: double;
   background-color: #caebf2;
   position: fixed;
   z-index: 10;
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  
-  
 }
 
-
-
-ul {
+#links ul {
   margin: 30px auto;
   padding: 0 20px;
   text-align: center;
-  
 }
 
-li {
+#links li {
   color: rgb(7, 4, 4);
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -35,11 +32,14 @@ li {
   border-style: dotted;
   width: 110px;
   display: inline-block;
+  cursor: pointer;
 }
 
-li:hover {
+#links li:hover {
   color: #fa003b;
 }
+
+/* <!---- Links Section end ----> */
 
 #Main-Photo
 {
@@ -48,11 +48,14 @@ li:hover {
   margin-right: auto;
   border-style: double;
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  border-radius: 50%;
   
 
 }
 
-#intro
+/* <!---- About Me Section start ----> */
+
+#aboutme
 {
   background-color: #caebf2;
   padding: 60px;
@@ -65,8 +68,10 @@ li:hover {
   font-size: medium;
   font-weight: bold;
 }
+/* <!---- About Me Section end ----> */
 
-#main
+/* <!---- Goals Section start ----> */
+#Goals
 {
   background-color: #caebf2;
   padding: 60px;
@@ -78,8 +83,11 @@ li:hover {
   margin-left: 15px;
 }
 
+/* <!---- Goals Section emd ----> */
 
-#end
+/* <!---- Updates Section start ----> */
+
+#updates
 {
   background-color: #caebf2;
   padding: 60px;
@@ -90,6 +98,11 @@ li:hover {
   margin-right: 15px;
   margin-left: 15px;
 }
+
+/* <!---- Update Section end ----> */
+
+/* <!---- Footer Section start ----> */
+
 #footer
 {
   background-color: #caebf2;
@@ -102,3 +115,5 @@ li:hover {
   margin-right: 15px;
   margin-left: 15px;
 }
+
+/* <!---- Footer Section end ----> */
