@@ -52,21 +52,8 @@ body
 
 /* <!---- Links Section end ----> */
 
-#Main-Photo
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: double;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  border-radius: 50%;
-  
-
-}
-
-/* <!---- About Me Section start ----> */
-
-#aboutme
+/* <!---- Title start ----> */
+#title
 {
   background-color: #caebf2;
   padding: 60px;
@@ -78,39 +65,38 @@ body
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   font-size: medium;
   font-weight: bold;
+  text-align: center;
 }
-/* <!---- About Me Section end ----> */
 
-/* <!---- Goals Section start ----> */
-#Goals
+/* <!---- Title end ----> */
+
+/* <!---- Blog tart ----> */
+
+#Blog_section
 {
   background-color: #caebf2;
   padding: 60px;
   border-style: solid;
   border-color: darkgreen;
   margin-bottom: 15px;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   margin-right: 15px;
   margin-left: 15px;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  font-size: 22px;
+  font-weight: bold;
 }
 
-/* <!---- Goals Section emd ----> */
-
-/* <!---- Updates Section start ----> */
-
-#updates
+#Certificate
 {
-  background-color: #caebf2;
-  padding: 60px;
-  border-style: solid;
-  border-color: darkgreen;
-  margin-bottom: 15px;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  margin-right: 15px;
-  margin-left: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+/* <!---- Blog end ----> */
 
-/* <!---- Update Section end ----> */
+
+
 
 /* <!---- Footer Section start ----> */
 
