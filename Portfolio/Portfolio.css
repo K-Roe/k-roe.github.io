@@ -72,29 +72,9 @@ body
 
 /* <!---- PORTFOLIO start ----> */
 
-#PORTFOLIO_section_One
-{
-  background-color: #caebf2;
-  padding: 60px;
-  border-style: solid;
-  border-color: darkgreen;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  margin-left: 15px;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  font-size: 22px;
-  font-weight: bold;
-}
 
-#Certificate
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
-#PORTFOLIO_section_Two
+#portfolio_Section_One
 {
   background-color: #caebf2;
   padding: 60px;
@@ -107,7 +87,6 @@ body
   font-size: 22px;
   font-weight: bold;
   background-color: lightblue;
- 
   height: 350px;
   overflow: scroll;
   

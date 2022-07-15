@@ -2,7 +2,7 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
  <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
     <link type="text/css" rel="stylesheet" href="index.css"/>
     <title>Karl Roe</title>  
  </head>
@@ -11,23 +11,33 @@
 <!---- Links Section start ---->
    <div id="links">
       <ul>
-        <li><a href="Portfolio/Portfolio.html"><ion-icon name="logo-python"></ion-icon></a></li>
-        <li><a href="Qualification/qualification.html"><ion-icon name="school-outline"></ion-icon></a></li>
-        <li><a href="https://www.linkedin.com/in/karl-roe-249b0417b/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-        <li><a href="https://github.com/K-Roe"><ion-icon name="logo-github"></ion-icon></a></li>
-        <li><a href="mailto:karlroe919286@msn.com" style="color: white" target="_blank" rel="noopener noreferrer"><ion-icon name="mail-outline"></ion-icon></a></li>
+        <li id="python"><a href="Portfolio/Portfolio.html"><ion-icon name="logo-python"></ion-icon></a></li>
+        <li id="school"><a href="Qualification/qualification.html"><ion-icon name="school-outline"></ion-icon></a></li>
+        <li id="linkedin"><a href="https://www.linkedin.com/in/karl-roe-249b0417b/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li id="github"><a href="https://github.com/K-Roe"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li id="mail"><a href="mailto:karlroe919286@msn.com" style="color: white" target="_blank" rel="noopener noreferrer"><ion-icon name="mail-outline"></ion-icon></a></li>
       </ul>
    </div>
 <!---- Links Section end ---->
+<img id="Main-Photo" src ="Photos/Karl.jpeg" alt="Karls Photo" width="150" height="150"> <!--change later just a place holder photo -->
+<input id="clickMe" type="button" value="Change Background Color" onclick="random_bg_color();" />
+<br>
 <!---- About Me Sections start ---->
    <div id = "aboutme">
-      <img id="Main-Photo" src ="Photos/Karl.jpeg" alt="Karls Photo" width="150" height="150"> <!--change later just a place holder photo -->
-      <p>Hello, My name is Karl Roe. I am a Python developer from England. I can also code in HTML, CSS and Javascript.</p>
+      <h1><u>About Me</u></h1>
+      <p>Hello, My name is Karl Roe. I am a Python developer from England. I also code in HTML, CSS and Javascript. If you want to take a look at my work click on my Portfolio link
+         at the top.
+         <br>
+         <br>
+         Here is a little bit more about me. I got in to coding to find a way to help my son who has autism. I wantted to build apps that would help him enjoy the world more and help him communicate
+         with me and his mum.  
+      </p>
 
    </div>
 <!---- About Me Sections end ---->
 
  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script  src="index.js"></script>
  </body>
 </html>

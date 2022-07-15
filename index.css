@@ -1,9 +1,6 @@
 body
 {
-    background-image: url("Photos/code.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background-color: rgb(151, 245, 248);
 
 }
 
@@ -70,22 +67,23 @@ body
 
 #aboutme
 {
-  color: white;
+  color: black;
+  background-color: #caebf2;
+  border-style: solid;
+  border-color: darkgreen;
+  border-style: solid;
   padding: 60px;
   margin-bottom: 15px;
   margin-right: 15px;
   margin-left: 15px;
-
+  margin-top: 50px;
   font-weight: bold;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
 }
 
-#aboutme p {
-  font-size: 40px;
-}
 
-#aboutme h1 {
-  font-size: 60px;
-}
+
+
 /* <!---- About Me Section end ----> */
 
 
