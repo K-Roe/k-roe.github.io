@@ -1,0 +1,155 @@
+body
+{
+    background-color: rgb(151, 245, 248);
+    height: 100%;
+    
+}
+
+/* <!---- Links Section start ----> */
+
+#links {
+  border-style: double;
+  background-color: #caebf2;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+}
+
+#links ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#links li {
+  
+  color: white;
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  border-style: dotted;
+  width: 110px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#links :hover {
+  color: #fa003b;
+}
+#links .active {
+  color: white;
+}
+#links :visited {
+  color: unset;
+  
+  
+}
+
+
+/* <!---- Links Section end ----> */
+
+/* <!---- Title start ----> */
+#title
+{
+  background-color: #caebf2;
+  padding: 60px;
+  border-style: solid;
+  border-color: darkgreen;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* <!---- Title end ----> */
+
+/* <!---- PORTFOLIO start ----> */
+
+#Certificates
+{
+  background-color: #caebf2;
+  padding: 60px;
+  border-style: solid;
+  border-color: darkgreen;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Certificate
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.thumbnail {
+top:-50px;
+left:-35px;
+display:block;
+z-index:999;
+cursor: pointer;
+-webkit-transition-property: all;
+-webkit-transition-duration: 0.3s;
+-webkit-transition-timing-function: ease;
+}
+
+/*change the number below to scale to the appropriate size*/
+.thumbnail:hover {
+transform: scale(3);
+
+}
+/* <!---- PORTFOLIO end ----> */
+
+
+
+
+/* <!---- Footer Section start ----> */
+
+#footer
+{
+  background-color: #caebf2;
+  padding: 60px;
+  text-align-last: center;
+  border-style: solid;
+  border-color: darkgreen;
+  margin-bottom: 15px;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* <!---- Footer Section end ----> */
