@@ -1,14 +1,5 @@
-
-// Menu Script
 $(document).ready(() => {
-    $(".menu").on("mouseenter", () => {
-      $(".nav-menu").show()
+    $("#Main-Photo").on("mouseenter", () => {
+        $(".links").fadeIn(4000);
     })
-     $(".nav-menu").on("mouseleave", () => {
-      $(".nav-menu").hide()
-    })
-   
-   }); 
-   
-
-
+});

@@ -1,49 +1,34 @@
-body
-{
-  background-color: rgb(151, 245, 248);
 
+
+body, html {
+  height: 100%;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("./Photos/BG.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* <!---- Links Section start ----> */
 
-#links {
-  border-style: double;
-  background-color: #caebf2;
-  position: fixed;
-  z-index: 10;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  margin: 100px auto;
-}
 
-#links ul {
-  margin: 30px auto;
-  padding: 0 20px;
-  text-align: center;
-}
 
-#links li {
-
-  color: white;
-  background-color: black;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: inline-block;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  border-style: dotted;
-  width: 157px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-#links :hover {
+.links :hover {
   color: #fa003b;
 }
-#links .active {
+.links .active {
   color: white;
 }
-#links :visited {
+.links :visited {
   color: unset;
 
 }
@@ -57,12 +42,6 @@ body
   padding: 10px;
 }
 
-.nav-menu {
-  background-color: #19314D;
-  color: #EFEFEF;
-  display: none;
-  justify-content: flex-start;
-}
 
 .menu {
   color: white;
@@ -79,19 +58,86 @@ body
 
 /* <!---- Links Section end ----> */
 
-#Main-Photo
-{
+
+#python, #school, #linkedin, #github, #mail, #about {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: double;
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  border-radius: 50%;
-  border-color: red;
+  position: absolute;
+  border-color: black;
+  border-style: dotted;
+  display: none;
+  justify-content: flex-start;
+  color: lightblue;
+  background-image: url("./Photos/iconimage.jpg");
+  padding: 10px;
+
+  text-align: center;
+}
+
+#python {
+  top: 150px;
+  right: 450px;
   
 
 }
 
+#school {
+  top: -320px;
+  right: -30px;
+}
+
+#linkedin {
+  top: -210px;
+  right: 450px;
+}
+
+#github {
+  top: -200px;
+  right: -500px;
+}
+
+#mail {
+  top: 250px;
+  right: 0px;
+}
+
+#about {
+  top: 150px;
+  right: -500px;
+}
+
+#Main-Photo
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50%;
+  border-style: double;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  border-radius: 50%;
+  border-color: red;
+}
+
+#Main-Photo-container {
+  height: 0px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 125px;
+  width: 125px;
+  text-indent: 1500em;
+
+}
 /* <!---- About Me Section start ----> */
 
 #aboutme
@@ -114,17 +160,4 @@ body
 
 
 /* <!---- About Me Section end ----> */
-
-#outerCircleText {
-color: #000;
-position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;
-}
-#outerCircleText div {position: relative;}
-#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
-
-
-.hide {
-  display: none; }
-
-
 

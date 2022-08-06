@@ -5,6 +5,11 @@ body
     
 }
 
+body, html {
+  height: 100%;
+}
+
+
 /* <!---- Links Section start ----> */
 
 #links {
