@@ -68,9 +68,13 @@ body
   text-align: center;
 }
 
+#titleCert {
+  text-align: center;
+  text-transform: uppercase;
+}
 /* <!---- Title end ----> */
 
-/* <!---- PORTFOLIO start ----> */
+/* <!---- Certificates start ----> */
 
 #Certificates
 {
@@ -132,7 +136,7 @@ cursor: pointer;
 transform: scale(3);
 
 }
-/* <!---- PORTFOLIO end ----> */
+/* <!---- Certificates end ----> */
 
 
 

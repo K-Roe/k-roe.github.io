@@ -9,6 +9,10 @@
  <body>
 
 <!---- Links Section start ---->
+   <div id="container">
+      <h1 class="menu">Menu</h1>
+   </div>
+   <div class="nav-menu">
    <div id="links">
       <ul>
         <li id="python"><a href="Portfolio/Portfolio.html"><ion-icon name="logo-python"></ion-icon>Portfolio</a></li>
@@ -18,9 +22,10 @@
         <li id="mail"><a href="mailto:karlroe919286@msn.com" style="color: white" target="_blank" rel="noopener noreferrer"><ion-icon name="mail-outline"></ion-icon>Email</a></li>
       </ul>
    </div>
+   </div>
 <!---- Links Section end ---->
 <img id="Main-Photo" src ="Photos/Karl.jpeg" alt="Karls Photo" width="150" height="150"> <!--change later just a place holder photo -->
-<input id="clickMe" type="button" value="Change Background Color" onclick="random_bg_color();" />
+
 <br>
 <!---- About Me Sections start ---->
    <div id = "aboutme">
@@ -35,9 +40,13 @@
 
    </div>
 <!---- About Me Sections end ---->
-
  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script  src="index.js"></script>
+
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script> 
+<script src="index.js"></script>
  </body>
 </html>

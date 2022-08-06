@@ -1,10 +1,12 @@
-function random_bg_color() {
-    let x = Math.floor(Math.random() * 256);
-    let y = Math.floor(Math.random() * 256);
-    let z = Math.floor(Math.random() * 256);
-    let bgColor = "rgb(" + x + "," + y + "," + z + ")";
+$(document).ready(() => {
+    $(".menu").on("mouseenter", () => {
+      $(".nav-menu").show()
+    })
+     $(".nav-menu").on("mouseleave", () => {
+      $(".nav-menu").hide()
+    })
+   
+   }); 
+   
 
- document.body.style.background = bgColor;
-
-}
 

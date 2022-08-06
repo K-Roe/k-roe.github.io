@@ -12,6 +12,7 @@ body
   position: fixed;
   z-index: 10;
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  margin: 100px auto;
 }
 
 #links ul {
@@ -45,6 +46,34 @@ body
 #links :visited {
   color: unset;
 
+}
+
+#container {
+  border-style: double;
+  background-color: #caebf2;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  position: fixed;
+  z-index: 10;
+  padding: 10px;
+}
+
+.nav-menu {
+  background-color: #19314D;
+  color: #EFEFEF;
+  display: none;
+  justify-content: flex-start;
+}
+
+.menu {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  border-style: dotted;
+  width: 157px;
+  display: inline-block;
+  text-align: center;
+  
 }
 
 
@@ -86,6 +115,15 @@ body
 
 /* <!---- About Me Section end ----> */
 
+#outerCircleText {
+color: #000;
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;
+}
+#outerCircleText div {position: relative;}
+#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
 
+
+.hide {
+  display: none; }
 
 
