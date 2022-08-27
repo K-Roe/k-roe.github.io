@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link type="text/css" rel="stylesheet" href="./libs/css/style.css"/>
+    <title>Task</title>  
+</head>
+
+<body>
+
+
+<table>
+
+    <tr>
+        <th class="first">TimeZone</th>
+        <th class="second">API description</th>
+        <th class="third">Submit</th>    
+    </tr>
+    <tr>
+        <td class="first">1.TimeZone</td>
+        <td>
+            <label for="lng">Enter the Longitude:</label>
+            <input type="text" id="lng" name="lng">
+            <label for="lat">Enter the Latitude: </label>
+            <input type="text" id="lat" name="lat"></td>
+        <td><button type="submit" id="btnRun">Submit</button></td>
+
+    <tr>
+        <div id="divResults">
+            <td colspan="3">
+                <br>
+                Sunrise:
+                <p id="sunrise"></p>
+                Sunset:
+                <p id="sunset"></p>
+                Country Name:
+                <p id="countryName"></p>
+                Timezone Id:
+                <p id="timezoneId"></p>
+                Time:
+                <p id="time"></p>
+            </td>
+
+    </div>
+
+    </tr>
+
+</tr>
+<tr>
+    <td class="first">2.Wikipedia</td>
+    <td>
+        <label for="q">Enter search word</label>
+        <input type="text" id="q" name="q">
+        <label for="maxRows">Enter maxrows: </label>
+        <input type="text" id="maxRows" name="maxRows"></td>
+    <td><button type="submit" id="btnRuntwo">Submit</button></td>
+</tr>
+<tr>
+    <div id="divResultsTwo">
+        <td colspan="3">
+            <br>
+            Title:
+            <p id="title"></p>
+            Summary:
+            <p id="summary"></p>
+            Url:
+            <p id="wikipediaUrl"></p>
+        </td>
+
+</div>
+
+</tr>
+<tr>
+    <td class="first">3.Address</td>
+    <td>
+        <label for="latthree">Enter the Latitude:</label>
+        <input type="text" id="latthree" name="latthree">
+        <label for="lngthree">Enter the Latitude:</label>
+        <input type="text" id="lngthree" name="lngthree">
+   
+        
+
+    <td><button type="submit" id="btnRunthree">Submit</button></td>
+</tr>
+<tr>
+    <div id="divResultsThree">
+        <td colspan="3">
+            <br>
+
+            Housenumber:
+            <p id="houseNumber"></p> 
+            Street:
+            <p id="street"></p>
+            Postalcode:
+            <p id="postalcode"></p>
+            Locality:
+            <p id="locality"></p>
+            Country Code:
+            <p id="countryCode"></p>
+ 
+
+        </td>
+
+</div>
+
+</tr>
+
+</table>
+    
+<script type="application/javascript" src="./libs/js/jquery-2.2.3.min.js"></script>
+<script type="application/javascript" src="./libs/js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+
+table, th, td {
+ border:1px double black;
+ border-collapse:collapse;
+ text-align: center;
+ height: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+
+#first {
+    width: 30%;
+}
+#second {
+    width: 40%;
+}
+#third{
+    width: 30%;
+}
+
+tr:last-child{
+    height: 300px;
+}
